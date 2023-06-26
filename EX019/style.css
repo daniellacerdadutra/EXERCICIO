@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*  Atenção!
+    Em tudo que é ID em html    = # em css  -------> só pode um elemetento para cada pagina HTML
+    em tudo que é class em html = é .(ponto) em CSS  -------> pode varias vezes em um elemento.
+
+-----------------------------------------------------------
+    obs.: pode ser colocado o id e class em um mesmo elemento, porém , o ID se sobrepõe ao class.
+ 
+*/
+
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+h1{
+    color: rgb(51, 77, 49);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+h2{
+    color: rgb(4,109,0);
+}
+
+.basico{
+     color: rgb(16, 122, 48);
+     font-weight: 800;
+     text-decoration: underline;
+
+}
+.intermediário{ 
+    color:orange;
+    text-decoration: underline;
+
+}
+.avançado{ 
+    color: red ;
+    text-decoration: underline;
+
+}
+
+.destaque{
+    background-color: rgba(255, 255, 0, 0.438);
+}

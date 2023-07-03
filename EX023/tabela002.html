@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabelas </title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table{ 
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+
+        td, th{ 
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px;
+
+        
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+            
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+
+            /* :nth-child --> PSEUDOCLASSE PARA COLOCAR TABELA ZEBRADA */
+        }
+        
+
+        td.num{
+            color: blue;
+            text-align: right;
+        }
+
+    .numtotal{
+        text-align: right;
+        background-color: red;
+        color: black;
+    }
+
+    caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia para tabelas grandes
+    TABLE
+        CAPTION
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    -->
+
+    <table>
+        <caption> População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+
+        </thead>
+
+        
+        
+        <tbody>
+            <tr>
+                <td> São paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>Rio de janiero</td>
+                <td class="num"> 17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">15 000 000</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num"> 5 000 000</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+
+
+        </tbody>
+
+
+
+
+        <tfoot>
+            <th scope="row">Total de habitantes</th>
+            <td class="numtotal"><strong>104 352 783</strong></td>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem totam molestias cum culpa quidem placeat fugiat, voluptas magni. Odit doloremque odio nisi laboriosam consequatur corrupti, quaerat veritatis tenetur quia repudiandae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat aliquam modi pariatur deleniti, nostrum natus alias odio incidunt in, animi placeat iste consequuntur perferendis. Quisquam ipsa soluta accusantium quam repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis saepe minima, deleniti modi id nihil adipisci in mollitia porro, iusto veritatis rem esse quam qui consectetur atque aspernatur quia. Fugit?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem totam molestias cum culpa quidem placeat fugiat, voluptas magni. Odit doloremque odio nisi laboriosam consequatur corrupti, quaerat veritatis tenetur quia repudiandae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat aliquam modi pariatur deleniti, nostrum natus alias odio incidunt in, animi placeat iste consequuntur perferendis. Quisquam ipsa soluta accusantium quam repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis saepe minima, deleniti modi id nihil adipisci in mollitia porro, iusto veritatis rem esse quam qui consectetur atque aspernatur quia. Fugit?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem totam molestias cum culpa quidem placeat fugiat, voluptas magni. Odit doloremque odio nisi laboriosam consequatur corrupti, quaerat veritatis tenetur quia repudiandae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat aliquam modi pariatur deleniti, nostrum natus alias odio incidunt in, animi placeat iste consequuntur perferendis. Quisquam ipsa soluta accusantium quam repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis saepe minima, deleniti modi id nihil adipisci in mollitia porro, iusto veritatis rem esse quam qui consectetur atque aspernatur quia. Fugit?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem totam molestias cum culpa quidem placeat fugiat, voluptas magni. Odit doloremque odio nisi laboriosam consequatur corrupti, quaerat veritatis tenetur quia repudiandae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat aliquam modi pariatur deleniti, nostrum natus alias odio incidunt in, animi placeat iste consequuntur perferendis. Quisquam ipsa soluta accusantium quam repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis saepe minima, deleniti modi id nihil adipisci in mollitia porro, iusto veritatis rem esse quam qui consectetur atque aspernatur quia. Fugit?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem totam molestias cum culpa quidem placeat fugiat, voluptas magni. Odit doloremque odio nisi laboriosam consequatur corrupti, quaerat veritatis tenetur quia repudiandae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat aliquam modi pariatur deleniti, nostrum natus alias odio incidunt in, animi placeat iste consequuntur perferendis. Quisquam ipsa soluta accusantium quam repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis saepe minima, deleniti modi id nihil adipisci in mollitia porro, iusto veritatis rem esse quam qui consectetur atque aspernatur quia. Fugit?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem totam molestias cum culpa quidem placeat fugiat, voluptas magni. Odit doloremque odio nisi laboriosam consequatur corrupti, quaerat veritatis tenetur quia repudiandae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat aliquam modi pariatur deleniti, nostrum natus alias odio incidunt in, animi placeat iste consequuntur perferendis. Quisquam ipsa soluta accusantium quam repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis saepe minima, deleniti modi id nihil adipisci in mollitia porro, iusto veritatis rem esse quam qui consectetur atque aspernatur quia. Fugit?</p>
+</body>
+</html>
